@@ -564,7 +564,7 @@ section {
   transition: all 0.3s ease-in-out;
   border-radius: 1rem;
   z-index: 1;
-  box-shadow:0px .5px .5px 0px  rgba(187, 187, 187);
+  box-shadow: 0px 0.5px 0.5px 0px rgba(187, 187, 187);
 }
 .services .icon-box::before {
   content: "";
@@ -1118,7 +1118,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #263f49;
+  background: #000000;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -1130,8 +1130,8 @@ section {
   margin-top: -90px;
   margin-bottom: 15px;
   background: white;
-  color: #2f4d5a;
-  border-top: 4px solid #67b0d1;
+  color: #000000;
+  border-top: 4px solid #000000;
   text-align: center;
   padding: 30px 20px;
 }
@@ -1151,7 +1151,7 @@ section {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #2f4d5a;
+  background: #ffffff;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1163,7 +1163,7 @@ section {
   transition: 0.3s;
 }
 #footer .footer-top .social-links a:hover {
-  background: #67b0d1;
+  background: #ffffff;
   color: #fff;
   text-decoration: none;
 }
@@ -1184,7 +1184,7 @@ section {
 }
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #b5d9e9;
+  color: #000000;
   font-size: 18px;
   line-height: 1;
 }
@@ -1203,7 +1203,7 @@ section {
   line-height: 1;
 }
 #footer .footer-top .footer-links ul a:hover {
-  color: #a2cfe3;
+  color: #d2d2d2;
 }
 #footer .footer-top .footer-newsletter form {
   margin-top: 30px;
@@ -1226,13 +1226,14 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #67b0d1;
-  color: #fff;
+  border: none;
+  background: #353535;
+  color: rgb(255, 255, 255);
   transition: 0.3s;
   border-radius: 4;
 }
 #footer .footer-top .footer-newsletter form input[type="submit"]:hover {
-  background: #409cc5;
+  background: #2d2d2d;
 }
 #footer .copyright {
   border-top: 1px solid #385b6b;
@@ -1244,6 +1245,10 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+textarea:focus,
+input:focus {
+  outline: none;
 }
 @media (max-width: 575px) {
   #footer .footer-top .footer-info {
