@@ -15,11 +15,11 @@ body {
 
 a {
   text-decoration: none;
-  color: #67b0d1;
+  color: #000;
 }
 
 a:hover {
-  color: #8ec4dd;
+  color: #000;
   text-decoration: none;
 }
 
@@ -804,13 +804,13 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #67b0d1;
+  border: 1px solid #000;
 }
 .portfolio-details
   .portfolio-details-slider
   .swiper-pagination
   .swiper-pagination-bullet-active {
-  background-color: #67b0d1;
+  background-color: #000;
 }
 .portfolio-details .portfolio-info {
   padding: 30px;
@@ -921,10 +921,10 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #67b0d1;
+  border: 1px solid #000;
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #67b0d1;
+  background-color: #000;
 }
 
 /*--------------------------------------------------------------
@@ -1155,10 +1155,10 @@ section {
   font-family: "Raleway", sans-serif;
 }
 #footer .footer-top .social-links a {
-  font-size: 18px;
+  font-size: 20px;
   display: inline-block;
   background: #ffffff;
-  color: #fff;
+  color: #000;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1170,7 +1170,7 @@ section {
 }
 #footer .footer-top .social-links a:hover {
   background: #ffffff;
-  color: #fff;
+  color: #000;
   text-decoration: none;
 }
 #footer .footer-top h4 {
