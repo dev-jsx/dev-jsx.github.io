@@ -46,7 +46,8 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 998;
-  background: #67b0d1;
+  background-color: rgb(128, 128, 128, 0.5);
+  backdrop-filter: blur(10px);
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -81,16 +82,17 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  padding: 24px 0;
-  background: #000000;
+  padding: 12px 0;
+  background-color: rgb(0, 0, 0, 0.8);
+  backdrop-filter: blur(10px);
 }
-#header.header-transparent {
+/* #header.header-transparent {
   background: transparent;
-}
-#header.header-scrolled {
+} */
+/* #header.header-scrolled {
   background: #000000;
   padding: 12px;
-}
+} */
 #header .logo h1 {
   font-size: 24px;
   margin: 0;
@@ -188,11 +190,11 @@ h6 {
 .navbar .dropdown ul a i {
   font-size: 12px;
 }
-.navbar .dropdown ul a:hover,
+/* .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover > a {
   color: #67b0d1;
-}
+} */
 .navbar .dropdown:hover > ul {
   opacity: 1;
   top: 100%;
@@ -272,11 +274,11 @@ h6 {
   font-size: 15px;
   color: #2f4d5a;
 }
-.navbar-mobile a:hover,
+/* .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover > a {
   color: #67b0d1;
-}
+} */
 .navbar-mobile .getstarted,
 .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -301,11 +303,11 @@ h6 {
 .navbar-mobile .dropdown ul a i {
   font-size: 12px;
 }
-.navbar-mobile .dropdown ul a:hover,
+/* .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover > a {
   color: #67b0d1;
-}
+} */
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
@@ -721,10 +723,10 @@ section {
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
-.portfolio #portfolio-flters li:hover,
+/* .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   color: #67b0d1;
-}
+} */
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
 }
