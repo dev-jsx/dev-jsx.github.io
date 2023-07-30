@@ -15,11 +15,11 @@ body {
 
 a {
   text-decoration: none;
-  color: #000;
+  color: #111;
 }
 
 a:hover {
-  color: #000;
+  color: #111;
   text-decoration: none;
 }
 
@@ -46,7 +46,8 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 998;
-  background: #67b0d1;
+  background-color: rgb(128, 128, 128, 0.5);
+  backdrop-filter: blur(10px);
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -81,16 +82,17 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  padding: 24px 0;
-  background: #000000;
+  padding: 12px 0;
+  background-color: rgb(17, 17, 17, 0.8);
+  backdrop-filter: blur(10px);
 }
-#header.header-transparent {
+/* #header.header-transparent {
   background: transparent;
-}
-#header.header-scrolled {
+} */
+/* #header.header-scrolled {
   background: #000000;
   padding: 12px;
-}
+} */
 #header .logo h1 {
   font-size: 24px;
   margin: 0;
@@ -188,11 +190,11 @@ h6 {
 .navbar .dropdown ul a i {
   font-size: 12px;
 }
-.navbar .dropdown ul a:hover,
+/* .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover > a {
   color: #67b0d1;
-}
+} */
 .navbar .dropdown:hover > ul {
   opacity: 1;
   top: 100%;
@@ -272,11 +274,11 @@ h6 {
   font-size: 15px;
   color: #2f4d5a;
 }
-.navbar-mobile a:hover,
+/* .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover > a {
   color: #67b0d1;
-}
+} */
 .navbar-mobile .getstarted,
 .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -301,11 +303,11 @@ h6 {
 .navbar-mobile .dropdown ul a i {
   font-size: 12px;
 }
-.navbar-mobile .dropdown ul a:hover,
+/* .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover > a {
   color: #67b0d1;
-}
+} */
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
@@ -317,7 +319,7 @@ h6 {
   width: 100%;
   height: 100vh;
   /* background: linear-gradient(rgba(55, 142, 181, 0.5), rgba(55, 142, 181, 0.2)), url("../img/hero-bg.jpg") top center; */
-  background: #000000;
+  background: #111;
   background-size: cover;
   position: relative;
   margin-bottom: -90px;
@@ -503,7 +505,7 @@ section {
 }
 .about .content .about-btn {
   display: inline-block;
-  background: #000000;
+  background: #111;
   padding: 6px 44px 8px 30px;
   color: #fff;
   border-radius: 50px;
@@ -524,7 +526,7 @@ section {
 }
 .about .icon-boxes .icon-box i {
   font-size: 40px;
-  color: #000000;
+  color: #111;
   margin-bottom: 10px;
 }
 .about .icon-boxes .icon-box h4 {
@@ -534,7 +536,7 @@ section {
 }
 .about .icon-boxes .icon-box p {
   font-size: 15px;
-  color: #000000;
+  color: #111;
 }
 @media (max-width: 1200px) {
   .about .content {
@@ -551,7 +553,7 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services {
-  background: black;
+  background: #111;
   color: white;
 }
 .services .icon-box {
@@ -559,7 +561,7 @@ section {
   position: relative;
   overflow: hidden;
   background: #fff;
-  color: black;
+  color: #111;
   box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.12);
   transition: all 0.3s ease-in-out;
   border-radius: 1rem;
@@ -579,7 +581,7 @@ section {
   z-index: -1;
 }
 .services .icon-box:hover::before {
-  background: #000000;
+  background: #111;
   border-radius: 8px;
   top: 0;
   border-radius: -10rem;
@@ -590,7 +592,7 @@ section {
 .services .icon i {
   font-size: 48px;
   line-height: 1;
-  color: #000000;
+  color: #111;
   transition: all 0.3s ease-in-out;
 }
 .services .title {
@@ -627,7 +629,7 @@ section {
 .counts .count-box i {
   display: block;
   font-size: 44px;
-  color: #000000;
+  color: #111;
   float: left;
   line-height: 0;
 }
@@ -663,7 +665,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+  background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(17, 17, 17, 0.8)),
     url("../img/bg.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
@@ -721,10 +723,10 @@ section {
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
-.portfolio #portfolio-flters li:hover,
+/* .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   color: #67b0d1;
-}
+} */
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
 }
@@ -804,13 +806,13 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #000;
+  border: 1px solid #111;
 }
 .portfolio-details
   .portfolio-details-slider
   .swiper-pagination
   .swiper-pagination-bullet-active {
-  background-color: #000;
+  background-color: #111;
 }
 .portfolio-details .portfolio-info {
   padding: 30px;
@@ -921,17 +923,17 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #000;
+  border: 1px solid #111;
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #000;
+  background-color: #111;
 }
 
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
 .team {
-  background-color: #000;
+  background-color: #111;
 }
 .team p {
   color: #fff;
@@ -951,7 +953,7 @@ section {
   right: 20px;
   background: #fff;
   padding: 20px 0;
-  color: #000;
+  color: #111;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   max-height: 95px;
   overflow: hidden;
@@ -964,7 +966,7 @@ section {
   font-weight: 700;
   margin-bottom: 10px;
   font-size: 16px;
-  color: #000;
+  color: #111;
   position: relative;
   padding-bottom: 10px;
 }
@@ -988,7 +990,7 @@ section {
 }
 .team .member .social a {
   transition: color 0.3s;
-  color: #000;
+  color: #111;
 }
 .team .member .social a:hover {
   color: #67b0d1;
@@ -1001,6 +1003,12 @@ section {
   .team .member {
     margin-bottom: 110px;
   }
+}
+.img-fluid {
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 
 /*--------------------------------------------------------------
@@ -1018,7 +1026,7 @@ section {
 }
 .contact .info-box i {
   font-size: 32px;
-  color: #000;
+  color: #111;
   border-radius: 50%;
   padding: 8px;
   border: 2px dotted #f0f7fa;
@@ -1094,7 +1102,7 @@ section {
   padding: 12px 15px;
 }
 .contact .php-email-form button[type="submit"] {
-  background: #000000;
+  background: #111;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1124,7 +1132,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #000000;
+  background: #111;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -1136,8 +1144,8 @@ section {
   margin-top: -90px;
   margin-bottom: 15px;
   background: white;
-  color: #000000;
-  border-top: 4px solid #000000;
+  color: #111;
+  border-top: 4px solid #111;
   text-align: center;
   padding: 30px 20px;
 }
@@ -1158,7 +1166,7 @@ section {
   font-size: 20px;
   display: inline-block;
   background: #ffffff;
-  color: #000;
+  color: #111;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1170,7 +1178,7 @@ section {
 }
 #footer .footer-top .social-links a:hover {
   background: #ffffff;
-  color: #000;
+  color: #111;
   text-decoration: none;
 }
 #footer .footer-top h4 {
@@ -1190,7 +1198,7 @@ section {
 }
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #000000;
+  color: #111;
   font-size: 18px;
   line-height: 1;
 }
@@ -1242,7 +1250,7 @@ section {
   background: #2d2d2d;
 }
 #footer .copyright {
-  border-top: 1px solid #385b6b;
+  border-top: 1px solid rgb(255, 255, 255, 0.7);
   text-align: center;
   padding-top: 30px;
 }
