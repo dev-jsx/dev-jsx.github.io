@@ -1004,6 +1004,12 @@ section {
     margin-bottom: 110px;
   }
 }
+.img-fluid {
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
 
 /*--------------------------------------------------------------
 # Contact
